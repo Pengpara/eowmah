@@ -1,0 +1,29 @@
+/*Sidebar settings*/
+.sidebar{
+    width: auto;
+    height: 240px;
+    flex: 1;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.sidebar-menu h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.sidebar-menu ul{
+    list-style: none;
+    padding-left: 1px;
+}
+
+.sidebar-menu li{
+    margin-bottom: 10px;
+}
+
+.sidebar-menu a{
+    color: darkslategray;
+    text-decoration: none;
+}

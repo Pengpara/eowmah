@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Organisation page</title>
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="css/Header.css">
+    <link rel="stylesheet" href="css/Footer.css">
+    <link rel="stylesheet" href="css/Sidebar.css">
+    <link rel="stylesheet" href="css/Organisation.css">
+</head>
+<body>
+    <div class="header-wrapper">
+        <div class="header" style="background-color: #6b54aa">
+            <div class="homebutton">
+                <a href="/">
+                    <img src="images/logo.webp" alt="Logo" class="logo" style="border: 2px solid #6b54aa;">
+                </a>
+            </div>
+            <div class="dropdowntest">
+                <div class="dropdown">
+                    <button class="dropbtn">Menu</button>
+                    <div class="dropdown-content">
+                        <a href="/info">Om madspild</a>
+                        <a href="/forbruger">Begræns madspild i hjemmet</a>
+                        <a href="/organisation">Tips & Tricks</a>
+                        <a href="/virksomhed">Mindre madspild i det professionelle miljø</a>
+                        <a href="#footer-wrap">Bliv aktiv</a>
+                    </div>
+                </div>
+            </div>
+            <form class="search-form" action="/searchErrorPage" method="GET">
+                <input type="text" name="query" placeholder="Søg..." class="search-input">
+                <button type="submit" class="search-button">🔍</button>
+            </form>
+        </div>
+    </div>
+
+    <br>
+
+    <main>
+        <div class="content">
+            <section class="main-content">
+                <h1>Hjælp andre</h1>
+                <h3>Del tips om madspild med andre</h3>
+                <p></p>
+                <ul>
+                    <li>Her kan du finde tips og tricks til at undgå madspild, som brugere eller officielle organisationer har delt</li>
+                    <li>Som organisation kan du/i selv supplere flere tips og tricks</li>
+                </ul>
+            </section>
+            <aside class="sidebar">
+                <div class="sidebar-menu">
+                    <h3>Naviger videre</h3>
+                    <ul>
+                        <li><a href="/">Hjem</a></li>
+                        <li><a href="/info">Om madspild</a></li>
+                        <li><a href="/forbruger">Begræns madspildet i hjemmet</a></li>
+                        <li><a href="/organisation" style="font-weight: bold">Tips, Tricks & Organisationer</a></li>
+                        <li><a href="/virksomhed">Mindre madspild i det professionelle miljø</a></li>
+                        <li><a href="#footer-wrap">Bliv aktiv</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+        <section class="comment-section">
+            <h2>Del tips og tricks</h2>
+
+            <form action="/submit-comment" class="comment-form">
+                <label for="navn">Navn:</label>
+                <input type="text" id="navn" name="navn" required>
+
+                <label for="email">Email (valgfrit):</label>
+                <input type="email" id="email" name="email">
+
+                <br>
+                <label for="tip">Tip:</label>
+                <textarea id="tip" name="tip" rows="4" required></textarea>
+
+                <button type="submit">Del Tip</button>
+            </form>
+        </section>
+
+        <div class="tips">
+            <h2>Tips fra andre</h2>
+            <div class="tipsListe">
+                <h3>Planlæg dine måltider (Stop Spild Af Mad)</h3>
+                <p>Lav en madplan og køb kun det, du har brug for til ugen.
+                    Det hjælper med at undgå impulskøb og sikrer, at alle indkøbte varer bliver brugt op.</p>
+
+                <h3>Gem rester korrekt (Danmark mod Madspild)</h3>
+                <p>Opbevar rester i lufttætte beholdere og brug mærkater med datoer.
+                    Dette gør det nemmere at finde og bruge dem, før de bliver for gamle.
+                </p>
+
+                <h3>Forstå datomærkning (Too Good To Go)</h3>
+                <p>Skel mellem “Mindst holdbar til” og “Sidste anvendelsesdato.”
+                    Mange varer kan stadig bruges efter "Mindst holdbar til"-datoen,
+                    så brug dine sanser til at tjekke, om maden stadig er god.
+                </p>
+
+                <h3>Frys mad ned (Wefood)</h3>
+                <p>Har du madvarer, du ikke når at bruge, så frys dem ned. Mange ting kan fryses,
+                    f.eks. brød, frugt og grøntsager, så de holder længere.</p>
+
+                <h3>Brug hele råvaren (Rethink Resource)</h3>
+                <p>Tænk kreativt for at undgå rester: Lav grøntsagsbouillon af skræller,
+                    brug stokken på broccoli i supper eller sautér grøntsagsblade. Det reducerer madspild
+                    og giver flere muligheder i køkkenet.</p>
+
+                <h3>Køb overskudsmad (Too Good To Go og Wefood)</h3>
+                <p>Køb overskudsmad gennem apps eller butikker, der sælger fødevarer tæt på udløbsdato.
+                    Det er godt for miljøet og din økonomi!</p>
+
+                <h3>Lav en restemiddag en gang om ugen (Stop Spild Af Mad)</h3>
+                <p>Hav en fast dag, hvor du bruger rester fra ugen til at lave kreative retter.
+                    Det kan være en god anledning til at tømme køleskabet og mindske madspild.</p>
+            </div>
+        </div>
+
+        <div class="organisationerIrl">
+            <h2>Officielle organisationer mod madspild</h2>
+            <div class="organisationerListe">
+                <h3>Danmark mod Madspild</h3>
+                <p>En landsdækkende bevægelse, der fokuserer på at reducere madspild gennem oplysning og
+                    samarbejde med virksomheder og offentlige aktører.
+                </p>
+
+                <h3>Stop Spild Af Mad</h3>
+                <p>En af Danmarks mest kendte initiativer mod madspild, grundlagt af Selina Juul,
+                    som arbejder på at oplyse og ændre vaner hos forbrugere, detailhandel og fødevareindustrien.
+                </p>
+
+                <h3>Too Good To Go</h3>
+                <p>Selvom det er en kommerciel aktør, spiller app'en en vigtig rolle i kampen mod madspild ved at
+                    forbinde forbrugere med restauranter og butikker, der sælger overskudsmad.
+                </p>
+
+                <h3>Rethink Resource</h3>
+                <p>En organisation, der arbejder med cirkulær økonomi og hjælper virksomheder med at minimere
+                    madspild og affald gennem rådgivning og projekter.
+                </p>
+
+                <h3>Wefood</h3>
+                <p>En nonprofit-butik under Folkekirkens Nødhjælp, der sælger overskudsmad til reducerede priser
+                    og bidrager til både at mindske madspild og støtte velgørenhedsarbejde.
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer" style="background-color: #57448a">
+            <div class="footer-content">
+                <div>
+                    <h4>Stop madspild</h4>
+                    <p>Danmark mod Madspild er en organisation,
+                        der arbejder for at reducere madspild i Danmark gennem oplysning,
+                        partnerskaber og konkrete initiativer. Organisationen engagerer både
+                        virksomheder og forbrugere i indsatsen for en mere bæredygtig fremtid.
+                    </p>
+                </div>
+            </div>
+            <div class="footer-wrap" id="footer-wrap">
+                <h4>Bliv aktiv</h4>
+                <a href="" class="cta">Bliv frivillig</a>
+                <br>
+                <a href="" class="cta">Bliv støttemedlem</a>
+                <br>
+                <a href="" class="cta">Bliv samarbejdspartner</a>
+                <br>
+                <a href="" class="cta"> Bliv erhvervspartner</a>
+                <br>
+            </div>
+            <div class="footer-kontakt-os">
+                <h4>Kontakt os</h4>
+                <p>Adresse: MadReduktion,
+                    Madgade 1,
+                    1234 AB København,</p>
+                <p>Email:
+                <p>Telefon: 12345678</p>
+            </div>
+        </div>
+        <div class="footer-bottom" style="background-color: #57448a">
+            <p>© 2024 Danmark mod Madspild</p>
+        </div>
+    </footer>
+</body>
+</html>

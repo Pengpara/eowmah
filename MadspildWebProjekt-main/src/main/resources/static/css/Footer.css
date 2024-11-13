@@ -1,0 +1,49 @@
+/*Footer settings*/
+.footer{
+    display: flex;
+    padding: 20px;
+    color: white;
+    justify-content: space-around; /* Space elements evenly */
+    align-items: flex-start; /* Align items at the top */
+    flex-wrap: wrap;  /* Allows wrapping on smaller screens */
+}
+
+.footer p{
+    line-height: 1.5;
+}
+
+.footer-bottom {
+    padding: 10px;
+    color: lightgray;
+    text-align: center;
+}
+
+/* Adjust each section in the footer */
+.footer-content,
+.footer-wrap,
+.footer-kontakt-os {
+    flex: 1;                      /* Allows each section to grow equally */
+    padding: 10px;                /* Add padding between sections */
+    min-width: 200px;             /* Ensures they don’t get too small */
+}
+
+.footer-wrap .cta {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.cta {
+    padding: 10px;
+    color: darkslategray;
+    text-decoration: none;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #c2d188;
+}
+
+.footer-bottom {
+    font-size: 13px;
+    color: lightgray;
+    text-decoration: none;
+}

@@ -1,0 +1,102 @@
+/* Comment Section */
+.comment-section {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.comment-section h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.comment-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form textarea {
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.comment-form textarea {
+    resize: vertical;
+}
+
+.comment-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.comment-form button:hover {
+    background-color: #45a049;
+}
+
+/* Comments Section */
+.tips, .organisationerIrl {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section header */
+.tips h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Individual tips styling */
+.tipsListe h3 {
+    font-size: 20px;
+    color: #333;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-left: 4px solid #007bff;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.tipsListe p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-left: 15px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+/* Spacing between each entry */
+.tipsListe h3, .tipsListe p {
+    margin-bottom: 15px;
+}
+
+/* Add a subtle shadow to each tip item */
+.tipsListe h3, .tipsListe p {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}

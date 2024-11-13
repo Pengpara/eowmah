@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forbruger page</title>
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="css/Header.css">
+    <link rel="stylesheet" href="css/Footer.css">
+    <link rel="stylesheet" href="css/Sidebar.css">
+</head>
+<body>
+    <div class="header-wrapper">
+        <div class="header" style="background-color: #aa6060">
+            <div class="homebutton">
+                <a href="/">
+                    <img src="images/logo.webp" alt="Logo" class="logo" style="border: 2px solid #aa6060;">
+                </a>
+            </div>
+            <div class="dropdowntest">
+                <div class="dropdown">
+                    <button class="dropbtn">Menu</button>
+                    <div class="dropdown-content">
+                        <a href="/info">Om madspild</a>
+                        <a href="/organisation">Organisation</a>
+                        <a href="/virksomhed">Virksomhed</a>
+                        <a href="#footer-wrap">Bliv aktiv</a>
+                    </div>
+                </div>
+            </div>
+            <form class="search-form" action="/searchErrorPage" method="GET">
+                <input type="text" name="query" placeholder="Søg..." class="search-input">
+                <button type="submit" class="search-button">🔍</button>
+            </form>
+        </div>
+    </div>
+    <div class="banner">
+        <img src="happy-family.jpg" alt="Banner image">
+    </div>
+
+    <main>
+        <div class="content">
+            <section class="main-content">
+                <h1>Begræns madspild i hjemmet</h1>
+                <h3>Syv råd til at begrænse madspild</h3>
+                <p>Følg disse råd for at begrænse madspild</p>
+
+                <ul>
+                <li>Køb kun den mad, der er behov for</li>
+                <li>Opbevar maden korrekt</li>
+                <li>Tilbered kun den mad, der vil blive spist</li>
+                <li>Gem madrester og brug dem senere – også de små – og brug dem til madpakken, retter i morgen eller som eftermiddagssnack.</li>
+                <li>Vær opmærksom på holdbarhedsmærkningen - ikke alle varer skal i skraldespanden efter udløb. </li>
+                <li>Lav en madplan, der passer til din familie - en madplan giver mulighed for at handle stort ind et par gange om ugen. Du kan lave madplan for et par dage eller en uge ad gangen, som det nu passer med dit liv og ugentlige gøremål. Når du laver planen kan du tjekke, hvad du allerede har i køleskab, fryser og skuffer.
+                    Når du kommer til butikken med en indkøbsseddel er der også større sandsynlighed for, at du kan undgå impulskøb.  </li>
+                <li>Tøm køleskabet - på internettet kan du finde flere sites med opskrifter, hvor du kan indtaste de varer, du har i køles​​kabet og få opskrifter med netop de ingredienser. Det kan være en god ide, hvis du har grønsager, der er ved at være slatne eller madvarer tæt på holdbarhedsdatoen.  </li>
+                </ul>
+            </section>
+            <aside class="sidebar">
+                <div class="sidebar-menu">
+                    <h3>Naviger videre</h3>
+                    <ul>
+                        <li><a href="/">Hjem</a></li>
+                        <li><a href="/info">Om madspild</a></li>
+                        <li><a href="/forbruger" style="font-weight: bold">Begræns madspildet i hjemmet</a></li>
+                        <li><a href="/organisation">Tips, Tricks & Organisationer</a></li>
+                        <li><a href="/virksomhed">Mindre madspild i det professionelle miljø</a></li>
+                        <li><a href="#footer-wrap">Bliv aktiv</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer" style="background-color: #754242">
+            <div class="footer-content">
+                <div>
+                    <h4>Stop madspild</h4>
+                    <p>Danmark mod Madspild er en organisation,
+                        der arbejder for at reducere madspild i Danmark gennem oplysning,
+                        partnerskaber og konkrete initiativer. Organisationen engagerer både
+                        virksomheder og forbrugere i indsatsen for en mere bæredygtig fremtid.
+                    </p>
+                </div>
+            </div>
+            <div class="footer-wrap" id="footer-wrap">
+                <h4>Bliv aktiv</h4>
+                <a href="" class="cta">Bliv frivillig</a>
+                <br>
+                <a href="" class="cta">Bliv støttemedlem</a>
+                <br>
+                <a href="" class="cta">Bliv samarbejdspartner</a>
+                <br>
+                <a href="" class="cta"> Bliv erhvervspartner</a>
+                <br>
+            </div>
+            <div class="footer-kontakt-os">
+                <h4>Kontakt os</h4>
+                <p>Adresse: xx,
+                    xx 1,
+                    1234 xx</p>
+                <p>Email:
+                <p>Telefon: 12345678</p>
+            </div>
+        </div>
+        <div class="footer-bottom" style="background-color: #754242">
+            <p>© 2024 Danmark mod Madspild</p>
+        </div>
+    </footer>
+</body>
+</html>

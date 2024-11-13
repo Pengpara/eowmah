@@ -1,0 +1,125 @@
+/* Enable smooth scrolling for anchor links */
+html {
+    scroll-behavior: smooth;
+}
+
+/*General settings*/
+body {
+    font-family: Arial, sans-serif;
+    display: block;
+    color: darkslategray;
+    margin: 0px;
+}
+
+.banner img{
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.content{
+    display: flex;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-content{
+    flex: 3;
+    padding-right: 20px;
+
+}
+
+.main-content h1{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.main-content ul{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.main-content li{
+    margin-bottom: 10px;
+}
+
+/*Button settings*/
+.button-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #5c6e56;
+    border: #222222;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 200px;
+    box-shadow: 0 4px 8px #4f634b;
+    transition: transform 0.3s ease;
+}
+
+.button:hover{
+    transform: translateY(-5px);
+    color: #a5b1ba;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.button img.button-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    border-style: solid;
+}
+
+
+/*Error page settings*/
+.error {
+    min-height: 50vh;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.error h1 {
+    max-width: 600px;
+}
+
+.error p {
+    max-width: 600px;
+    margin-top: 10px;
+}
+
+.errorBtn{
+    background-color: #222222;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.errorBtn:hover{
+    background-color: #424242;
+    transform: translateY(-5px);
+    cursor: pointer;
+}

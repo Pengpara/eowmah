@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Virksomhed page</title>
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="css/Header.css">
+    <link rel="stylesheet" href="css/Footer.css">
+    <link rel="stylesheet" href="css/Sidebar.css">
+</head>
+<body>
+    <div class="header-wrapper">
+        <div class="header" style="background-color: #1f73aa">
+            <div class="homebutton">
+                <a href="/">
+                    <img src="images/logo.webp" alt="Logo" class="logo" style="border: 2px solid #1f73aa;">
+                </a>
+            </div>
+            <div class="dropdowntest">
+                <div class="dropdown">
+                    <button class="dropbtn">Menu</button>
+                    <div class="dropdown-content">
+                        <a href="/info">Om madspild</a>
+                        <a href="/forbruger">Begræns madspild i hjemmet</a>
+                        <a href="/organisation">Organisation</a>
+                        <a href="#footer-wrap">Bliv aktiv</a>
+                    </div>
+                </div>
+            </div>
+            <form class="search-form" action="/searchErrorPage" method="GET">
+                <input type="text" name="query" placeholder="Søg..." class="search-input">
+                <button type="submit" class="search-button">🔍</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="images/virksomhed-banner.png" alt="Banner Image" class="fixed-image">
+    </div>
+
+    <main>
+        <div class="content">
+            <section class="main-content">
+                <h1>
+                    Mindre madspild i det professionelle miljø
+                </h1>
+                <h2>Her finder du vejledning til dit køkken i fx. din Café, kantine eller køkkenet i din offentlige institution</h2>
+                <p>Madspild forekommer på forskellige faser i driften, og derfor skal madspildsforebyggende og -reducerende initiativer foretages afhængigt af situationen.</p>
+                <p>De forebyggende og reducerende madspildstiltag kan foretages i følgende faser af produktionen:</p>
+                <ul>
+                    <li>Planlægning</li>
+                    <li>Madlavning</li>
+                    <li>Måltidet</li>
+                    <li>Efter måltidet</li>
+                </ul>
+                <h2>1. Planlægning</h2>
+                <p>Reducering af madspild kan tænkes ind allerede i planlægningen af måltiderne, så I på et tidligt stadie forebygger madspild. Det gælder f.eks. om at menuplanlægge, have styr på indkøb og opbevaring på lager, kontrol af holdbarhedsdato og planlægge brugen af rester.</p>
+                <h2>2. Madlavning</h2>
+                <p>Der kan forekomme unødvendigt madspild under madlavningen, f.eks. ved at der bliver skåret for meget af friske råvarer, som ellers kunne spises, at emballage ikke tømmes fuldstændigt, eller at der bliver lavet for meget mad i forhold til antal spisende.</p>
+                <h2>3. Måltidet</h2>
+                <p>Forskning viser, at det største madspild i de professionelle køkkener sker ved serveringen og fra selve tallerkenen. De mest effektive madspildsinitiativer bør derfor inkludere og rette sig mod medarbejderne i køkkenet og de spisende.</p>
+                <h2>4. Efter måltidet</h2>
+                <p>Der er ofte overskydende mad tilbage efter måltiderne, både fra overskydende produktion og fordi de spisende ikke spiser op. Her kan der med fordel tilbydes f.eks. doggybags til de spisendes rester, donation, eller ordninger hvor de spisende kan købe overskudsmad med rabat</p>
+            </section>
+            <aside class="sidebar">
+                <div class="sidebar-menu">
+                    <h3>Naviger videre</h3>
+                    <ul>
+                        <li><a href="/">Hjem</a></li>
+                        <li><a href="/info">Om madspild</a></li>
+                        <li><a href="/forbruger">Begræns madspildet i hjemmet</a></li>
+                        <li><a href="/organisation">Tips, Tricks & Organisationer</a></li>
+                        <li><a href="/virksomhed" style="font-weight: bold">Mindre madspild i det professionelle miljø</a></li>
+                        <li><a href="#footer-wrap">Bliv aktiv</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer" style="background-color: #155077">
+            <div class="footer-content">
+                <div>
+                    <h4>Stop madspild</h4>
+                    <p>Danmark mod Madspild er en organisation,
+                        der arbejder for at reducere madspild i Danmark gennem oplysning,
+                        partnerskaber og konkrete initiativer. Organisationen engagerer både
+                        virksomheder og forbrugere i indsatsen for en mere bæredygtig fremtid.
+                    </p>
+                </div>
+            </div>
+            <div class="footer-wrap" id="footer-wrap">
+                <h4>Bliv aktiv</h4>
+                <a href="" class="cta">Bliv frivillig</a>
+                <br>
+                <a href="" class="cta">Bliv støttemedlem</a>
+                <br>
+                <a href="" class="cta">Bliv samarbejdspartner</a>
+                <br>
+                <a href="" class="cta"> Bliv erhvervspartner</a>
+                <br>
+            </div>
+            <div class="footer-kontakt-os">
+                <h4>Kontakt os</h4>
+                <p>Adresse: xx,
+                    xx 1,
+                    1234 xx</p>
+                <p>Email:
+                <p>Telefon: 12345678</p>
+            </div>
+        </div>
+        <div class="footer-bottom" style="background-color: #155077">
+            <p>© 2024 Danmark mod Madspild</p>
+        </div>
+    </footer>
+</body>
+</html>
